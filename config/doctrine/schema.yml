@@ -1,0 +1,11 @@
+ioMedia:
+  columns:
+    filename:    string(255)
+    title:       string(255)
+    description: clob
+
+    # metadata
+    type:        string(80)
+    filesize:    integer
+  actAs:
+    Timestampable:
